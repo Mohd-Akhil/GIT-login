@@ -1,0 +1,116 @@
+*{
+    font-family: "Kode Mono", monospace;
+}
+body{
+    background-color: rgb(13, 13, 14);
+    display: grid;
+    grid-template-columns: repeat(3);
+    align-items: center;
+    justify-content: center;
+}
+.top{
+    display: grid;
+    grid-template-rows: repeat(2);
+    align-items: center;
+    justify-content: center;
+}
+.top i{
+    color: white;
+    margin-left: 140px;
+    margin-top: 100px;
+    font-size: 70px;
+}
+.top h1{
+    margin-left: 60px;
+    font-size: 24px;
+    color: white;
+}
+.mid{
+    display: grid;
+    grid-template-rows: repeat(3);
+    align-items: center;
+    justify-content: center;
+    border:1px solid #2f3136;
+    background-color: #161B22;
+    border-radius: 8px;
+    width: 300px;
+    margin-left: 210px;
+    padding: 10px;
+}
+.box{
+    border-radius: 5px;
+    width: 250px;
+    height: 26px;
+}
+.text{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+#forgot{
+    text-decoration: none;
+    color: blue;
+}
+#forgot:hover{
+    text-decoration: underline;
+}
+button{
+    color: white;
+    background-color: green;
+    width: 260px;
+    height: 26px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: darkgreen;
+}
+.bot{
+    display: grid;
+    grid-template-rows: repeat(2);
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 210px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.b{
+    text-decoration: none;
+    color: blue;
+    font-size: 12px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+.b:hover{
+    text-decoration: underline;
+}
+#g{
+    color: white;
+    font-size: 12px;
+}   
+#s{
+    color: blue;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+#s:hover{
+    text-decoration: underline;
+}
+footer{
+    margin: 70px 0px;
+}
+.foot{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+.foot:hover{
+    text-decoration: underline;
+}
